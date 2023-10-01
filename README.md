@@ -16,3 +16,12 @@ Data will consist of at several sessions from 6 different subjects including IMU
 # [Task] Types of terrains
 
 This is a classification task to find different terrains from time series data. The idea is to train a neural network using given data to classify which terrain an unknown data represents. We will use F1 score as the evaluation metric for this project.
+
+# Data files info
+
+Here is a brief description of the data:
+
+  - "_x" files contain the xyz accelerometers and xyz gyroscope measurements from the lower limb.
+  - "_x_time" files contain the time stamps for the accelerometer and gyroscope measurements. The units are in seconds and the sampling rate is 40 Hz.
+  - "_y" files contain the labels. (0) indicates standing or walking in solid ground, (1) indicates going down the stairs, (2) indicates going up the stairs, and (3) indicates walking on grass.
+  - "_y_time" files contain the time stamps for the labels. The units are in seconds and the sampling rates is 10 Hz.
